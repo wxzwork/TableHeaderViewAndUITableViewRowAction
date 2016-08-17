@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81A94AB21D4063A70034EF24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94AB11D4063A70034EF24 /* main.m */; };
+		81A94AB51D4063A70034EF24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94AB41D4063A70034EF24 /* AppDelegate.m */; };
+		81A94AB81D4063A70034EF24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94AB71D4063A70034EF24 /* ViewController.m */; };
+		81A94ABB1D4063A70034EF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A94AB91D4063A70034EF24 /* Main.storyboard */; };
+		81A94ABD1D4063A70034EF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A94ABC1D4063A70034EF24 /* Assets.xcassets */; };
+		81A94AC01D4063A70034EF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A94ABE1D4063A70034EF24 /* LaunchScreen.storyboard */; };
+		81A94ACB1D4063A70034EF24 /* UITableViewRowAction________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94ACA1D4063A70034EF24 /* UITableViewRowAction________Tests.m */; };
+		81A94AD61D4063A70034EF24 /* UITableViewRowAction________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94AD51D4063A70034EF24 /* UITableViewRowAction________UITests.m */; };
+		81A94AED1D40E62E0034EF24 /* bj1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81A94AEC1D40E62E0034EF24 /* bj1@2x.jpg */; };
+		81A94AEF1D40E7490034EF24 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81A94AEE1D40E7490034EF24 /* 2.jpg */; };
+		81A94AF11D40E7880034EF24 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A94AF01D40E7880034EF24 /* iconfont.ttf */; };
+		81A94AF91D40E7C40034EF24 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94AF41D40E7C40034EF24 /* TBCityIconFont.m */; };
+		81A94AFA1D40E7C40034EF24 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94AF61D40E7C40034EF24 /* TBCityIconInfo.m */; };
+		81A94AFB1D40E7C40034EF24 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A94AF81D40E7C40034EF24 /* UIImage+TBCityIconFont.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81A94AC71D4063A70034EF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A94AA51D4063A70034EF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81A94AAC1D4063A70034EF24;
+			remoteInfo = "UITableViewRowAction滑动显示多个按钮";
+		};
+		81A94AD21D4063A70034EF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A94AA51D4063A70034EF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81A94AAC1D4063A70034EF24;
+			remoteInfo = "UITableViewRowAction滑动显示多个按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81A94AAD1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewRowAction滑动显示多个按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A94AB11D4063A70034EF24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81A94AB31D4063A70034EF24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81A94AB41D4063A70034EF24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81A94AB61D4063A70034EF24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81A94AB71D4063A70034EF24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81A94ABA1D4063A70034EF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81A94ABC1D4063A70034EF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81A94ABF1D4063A70034EF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81A94AC11D4063A70034EF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A94AC61D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewRowAction滑动显示多个按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A94ACA1D4063A70034EF24 /* UITableViewRowAction________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewRowAction________Tests.m"; sourceTree = "<group>"; };
+		81A94ACC1D4063A70034EF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A94AD11D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewRowAction滑动显示多个按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A94AD51D4063A70034EF24 /* UITableViewRowAction________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewRowAction________UITests.m"; sourceTree = "<group>"; };
+		81A94AD71D4063A70034EF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A94AEC1D40E62E0034EF24 /* bj1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bj1@2x.jpg"; sourceTree = "<group>"; };
+		81A94AEE1D40E7490034EF24 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		81A94AF01D40E7880034EF24 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		81A94AF31D40E7C40034EF24 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		81A94AF41D40E7C40034EF24 /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		81A94AF51D40E7C40034EF24 /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		81A94AF61D40E7C40034EF24 /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		81A94AF71D40E7C40034EF24 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		81A94AF81D40E7C40034EF24 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81A94AAA1D4063A70034EF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A94AC31D4063A70034EF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A94ACE1D4063A70034EF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81A94AA41D4063A70034EF24 = {
+			isa = PBXGroup;
+			children = (
+				81A94AAF1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮 */,
+				81A94AC91D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮Tests */,
+				81A94AD41D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮UITests */,
+				81A94AAE1D4063A70034EF24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81A94AAE1D4063A70034EF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81A94AAD1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮.app */,
+				81A94AC61D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮Tests.xctest */,
+				81A94AD11D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81A94AAF1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				81A94AF21D40E7C40034EF24 /* IconFont */,
+				81A94AF01D40E7880034EF24 /* iconfont.ttf */,
+				81A94AEE1D40E7490034EF24 /* 2.jpg */,
+				81A94AEC1D40E62E0034EF24 /* bj1@2x.jpg */,
+				81A94AB31D4063A70034EF24 /* AppDelegate.h */,
+				81A94AB41D4063A70034EF24 /* AppDelegate.m */,
+				81A94AB61D4063A70034EF24 /* ViewController.h */,
+				81A94AB71D4063A70034EF24 /* ViewController.m */,
+				81A94AB91D4063A70034EF24 /* Main.storyboard */,
+				81A94ABC1D4063A70034EF24 /* Assets.xcassets */,
+				81A94ABE1D4063A70034EF24 /* LaunchScreen.storyboard */,
+				81A94AC11D4063A70034EF24 /* Info.plist */,
+				81A94AB01D4063A70034EF24 /* Supporting Files */,
+			);
+			path = "UITableViewRowAction滑动显示多个按钮";
+			sourceTree = "<group>";
+		};
+		81A94AB01D4063A70034EF24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81A94AB11D4063A70034EF24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81A94AC91D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81A94ACA1D4063A70034EF24 /* UITableViewRowAction________Tests.m */,
+				81A94ACC1D4063A70034EF24 /* Info.plist */,
+			);
+			path = "UITableViewRowAction滑动显示多个按钮Tests";
+			sourceTree = "<group>";
+		};
+		81A94AD41D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				81A94AD51D4063A70034EF24 /* UITableViewRowAction________UITests.m */,
+				81A94AD71D4063A70034EF24 /* Info.plist */,
+			);
+			path = "UITableViewRowAction滑动显示多个按钮UITests";
+			sourceTree = "<group>";
+		};
+		81A94AF21D40E7C40034EF24 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				81A94AF31D40E7C40034EF24 /* TBCityIconFont.h */,
+				81A94AF41D40E7C40034EF24 /* TBCityIconFont.m */,
+				81A94AF51D40E7C40034EF24 /* TBCityIconInfo.h */,
+				81A94AF61D40E7C40034EF24 /* TBCityIconInfo.m */,
+				81A94AF71D40E7C40034EF24 /* UIImage+TBCityIconFont.h */,
+				81A94AF81D40E7C40034EF24 /* UIImage+TBCityIconFont.m */,
+			);
+			path = IconFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81A94AAC1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A94ADA1D4063A70034EF24 /* Build configuration list for PBXNativeTarget "UITableViewRowAction滑动显示多个按钮" */;
+			buildPhases = (
+				81A94AA91D4063A70034EF24 /* Sources */,
+				81A94AAA1D4063A70034EF24 /* Frameworks */,
+				81A94AAB1D4063A70034EF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableViewRowAction滑动显示多个按钮";
+			productName = "UITableViewRowAction滑动显示多个按钮";
+			productReference = 81A94AAD1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81A94AC51D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A94ADD1D4063A70034EF24 /* Build configuration list for PBXNativeTarget "UITableViewRowAction滑动显示多个按钮Tests" */;
+			buildPhases = (
+				81A94AC21D4063A70034EF24 /* Sources */,
+				81A94AC31D4063A70034EF24 /* Frameworks */,
+				81A94AC41D4063A70034EF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81A94AC81D4063A70034EF24 /* PBXTargetDependency */,
+			);
+			name = "UITableViewRowAction滑动显示多个按钮Tests";
+			productName = "UITableViewRowAction滑动显示多个按钮Tests";
+			productReference = 81A94AC61D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81A94AD01D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A94AE01D4063A70034EF24 /* Build configuration list for PBXNativeTarget "UITableViewRowAction滑动显示多个按钮UITests" */;
+			buildPhases = (
+				81A94ACD1D4063A70034EF24 /* Sources */,
+				81A94ACE1D4063A70034EF24 /* Frameworks */,
+				81A94ACF1D4063A70034EF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81A94AD31D4063A70034EF24 /* PBXTargetDependency */,
+			);
+			name = "UITableViewRowAction滑动显示多个按钮UITests";
+			productName = "UITableViewRowAction滑动显示多个按钮UITests";
+			productReference = 81A94AD11D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81A94AA51D4063A70034EF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WOSHIPM;
+				TargetAttributes = {
+					81A94AAC1D4063A70034EF24 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					81A94AC51D4063A70034EF24 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 81A94AAC1D4063A70034EF24;
+					};
+					81A94AD01D4063A70034EF24 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 81A94AAC1D4063A70034EF24;
+					};
+				};
+			};
+			buildConfigurationList = 81A94AA81D4063A70034EF24 /* Build configuration list for PBXProject "UITableViewRowAction滑动显示多个按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81A94AA41D4063A70034EF24;
+			productRefGroup = 81A94AAE1D4063A70034EF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81A94AAC1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮 */,
+				81A94AC51D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮Tests */,
+				81A94AD01D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81A94AAB1D4063A70034EF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A94AED1D40E62E0034EF24 /* bj1@2x.jpg in Resources */,
+				81A94AC01D4063A70034EF24 /* LaunchScreen.storyboard in Resources */,
+				81A94AF11D40E7880034EF24 /* iconfont.ttf in Resources */,
+				81A94AEF1D40E7490034EF24 /* 2.jpg in Resources */,
+				81A94ABD1D4063A70034EF24 /* Assets.xcassets in Resources */,
+				81A94ABB1D4063A70034EF24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A94AC41D4063A70034EF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A94ACF1D4063A70034EF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81A94AA91D4063A70034EF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A94AFA1D40E7C40034EF24 /* TBCityIconInfo.m in Sources */,
+				81A94AB81D4063A70034EF24 /* ViewController.m in Sources */,
+				81A94AB51D4063A70034EF24 /* AppDelegate.m in Sources */,
+				81A94AF91D40E7C40034EF24 /* TBCityIconFont.m in Sources */,
+				81A94AFB1D40E7C40034EF24 /* UIImage+TBCityIconFont.m in Sources */,
+				81A94AB21D4063A70034EF24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A94AC21D4063A70034EF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A94ACB1D4063A70034EF24 /* UITableViewRowAction________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A94ACD1D4063A70034EF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A94AD61D4063A70034EF24 /* UITableViewRowAction________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81A94AC81D4063A70034EF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81A94AAC1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮 */;
+			targetProxy = 81A94AC71D4063A70034EF24 /* PBXContainerItemProxy */;
+		};
+		81A94AD31D4063A70034EF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81A94AAC1D4063A70034EF24 /* UITableViewRowAction滑动显示多个按钮 */;
+			targetProxy = 81A94AD21D4063A70034EF24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81A94AB91D4063A70034EF24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81A94ABA1D4063A70034EF24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81A94ABE1D4063A70034EF24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81A94ABF1D4063A70034EF24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81A94AD81D4063A70034EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81A94AD91D4063A70034EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81A94ADB1D4063A70034EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableViewRowAction滑动显示多个按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UITableViewRowAction--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81A94ADC1D4063A70034EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableViewRowAction滑动显示多个按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UITableViewRowAction--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81A94ADE1D4063A70034EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableViewRowAction滑动显示多个按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UITableViewRowAction--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewRowAction滑动显示多个按钮.app/UITableViewRowAction滑动显示多个按钮";
+			};
+			name = Debug;
+		};
+		81A94ADF1D4063A70034EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableViewRowAction滑动显示多个按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UITableViewRowAction--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewRowAction滑动显示多个按钮.app/UITableViewRowAction滑动显示多个按钮";
+			};
+			name = Release;
+		};
+		81A94AE11D4063A70034EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableViewRowAction滑动显示多个按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UITableViewRowAction--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableViewRowAction滑动显示多个按钮";
+			};
+			name = Debug;
+		};
+		81A94AE21D4063A70034EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableViewRowAction滑动显示多个按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UITableViewRowAction--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableViewRowAction滑动显示多个按钮";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81A94AA81D4063A70034EF24 /* Build configuration list for PBXProject "UITableViewRowAction滑动显示多个按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A94AD81D4063A70034EF24 /* Debug */,
+				81A94AD91D4063A70034EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A94ADA1D4063A70034EF24 /* Build configuration list for PBXNativeTarget "UITableViewRowAction滑动显示多个按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A94ADB1D4063A70034EF24 /* Debug */,
+				81A94ADC1D4063A70034EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81A94ADD1D4063A70034EF24 /* Build configuration list for PBXNativeTarget "UITableViewRowAction滑动显示多个按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A94ADE1D4063A70034EF24 /* Debug */,
+				81A94ADF1D4063A70034EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81A94AE01D4063A70034EF24 /* Build configuration list for PBXNativeTarget "UITableViewRowAction滑动显示多个按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A94AE11D4063A70034EF24 /* Debug */,
+				81A94AE21D4063A70034EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81A94AA51D4063A70034EF24 /* Project object */;
+}
